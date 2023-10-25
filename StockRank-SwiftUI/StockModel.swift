@@ -9,12 +9,6 @@ import Foundation
 
 struct StockModel: Hashable, Identifiable {
     var id: UUID = UUID()
-    
-    // 혹은
-//    var id: String {
-//        return name
-//    }
-    
     let rank: Int
     let imageName: String
     let name: String
